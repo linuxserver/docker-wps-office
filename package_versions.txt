@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.13                                              npm        
-@types/node                                                                   20.5.1                                              npm        
+@types/node                                                                   20.5.6                                              npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -58,6 +58,7 @@ base-passwd                                                                   3.
 base64-js                                                                     1.5.1                                               npm        
 base64id                                                                      2.0.0                                               npm        
 bash                                                                          5.1-2+deb11u1                                       deb        
+bc                                                                            1.07.1-2+b2                                         deb        
 bin-links                                                                     4.0.1                                               npm        
 binary-extensions                                                             2.2.0                                               npm        
 bindings                                                                      1.5.0                                               npm        
@@ -76,8 +77,8 @@ cacache                                                                       17
 call-bind                                                                     1.0.2                                               npm        
 chalk                                                                         4.1.2                                               npm        
 chownr                                                                        2.0.0                                               npm        
-chromium                                                                      116.0.5845.96-1~deb11u1                             deb        
-chromium-common                                                               116.0.5845.96-1~deb11u1                             deb        
+chromium                                                                      116.0.5845.110-1~deb11u1                            deb        
+chromium-common                                                               116.0.5845.110-1~deb11u1                            deb        
 ci-info                                                                       3.8.0                                               npm        
 cidr-regex                                                                    3.1.1                                               npm        
 clean-stack                                                                   2.2.0                                               npm        
@@ -105,6 +106,16 @@ cpp                                                                           4:
 cpp-10                                                                        10.2.1-6                                            deb        
 cross-spawn                                                                   7.0.3                                               npm        
 cssesc                                                                        3.0.0                                               npm        
+cups                                                                          2.3.3op2-3+deb11u2                                  deb        
+cups-client                                                                   2.3.3op2-3+deb11u2                                  deb        
+cups-common                                                                   2.3.3op2-3+deb11u2                                  deb        
+cups-core-drivers                                                             2.3.3op2-3+deb11u2                                  deb        
+cups-daemon                                                                   2.3.3op2-3+deb11u2                                  deb        
+cups-filters                                                                  1.28.7-1+deb11u2                                    deb        
+cups-filters-core-drivers                                                     1.28.7-1+deb11u2                                    deb        
+cups-ipp-utils                                                                2.3.3op2-3+deb11u2                                  deb        
+cups-ppdc                                                                     2.3.3op2-3+deb11u2                                  deb        
+cups-server-common                                                            2.3.3op2-3+deb11u2                                  deb        
 curl                                                                          7.74.0-1.3+deb11u7                                  deb        
 dash                                                                          0.5.11+git20200708+dd9ef66-5                        deb        
 dbus                                                                          1.12.24-0+deb11u1                                   deb        
@@ -162,6 +173,7 @@ fontconfig-config                                                             2.
 fonts-dejavu-core                                                             2.37-2                                              deb        
 fonts-liberation                                                              1:1.07.4-11                                         deb        
 fonts-noto-cjk                                                                1:20201206-cjk+repack1-1                            deb        
+fonts-urw-base35                                                              20200910-1                                          deb        
 foreground-child                                                              3.1.1                                               npm        
 forwarded                                                                     0.2.0                                               npm        
 fresh                                                                         0.5.2                                               npm        
@@ -176,6 +188,7 @@ gauge                                                                         5.
 gcc-10-base                                                                   10.2.1-6                                            deb        
 gcc-9-base                                                                    9.3.0-22                                            deb        
 get-intrinsic                                                                 1.2.1                                               npm        
+ghostscript                                                                   9.53.3~dfsg-7+deb11u5                               deb        
 gir1.2-glib-2.0                                                               1.66.1-1+b1                                         deb        
 gir1.2-packagekitglib-1.0                                                     1.2.2-2                                             deb        
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module  
@@ -585,6 +598,7 @@ libcolord2                                                                    1.
 libcom-err2                                                                   1.46.2-2                                            deb        
 libcrypt1                                                                     1:4.4.18-4                                          deb        
 libcups2                                                                      2.3.3op2-3+deb11u2                                  deb        
+libcupsfilters1                                                               1.28.7-1+deb11u2                                    deb        
 libcurl3-gnutls                                                               7.74.0-1.3+deb11u7                                  deb        
 libcurl4                                                                      7.74.0-1.3+deb11u7                                  deb        
 libdata-optlist-perl                                                          0.110-1.1                                           deb        
@@ -632,6 +646,7 @@ libfile-sharedir-perl                                                         1.
 libflac8                                                                      1.3.3-2+deb11u1                                     deb        
 libflite1                                                                     2.2-2                                               deb        
 libfontconfig1                                                                2.13.1-4.2                                          deb        
+libfontembed1                                                                 1.28.7-1+deb11u2                                    deb        
 libfontenc1                                                                   1:1.1.4-1                                           deb        
 libfreetype6                                                                  2.10.4+dfsg-1+deb11u1                               deb        
 libfribidi0                                                                   1.0.8-2+deb11u1                                     deb        
@@ -665,6 +680,8 @@ libgomp1                                                                      10
 libgpg-error0                                                                 1.38-2                                              deb        
 libgpm2                                                                       1.20.7-8                                            deb        
 libgraphite2-3                                                                1.3.14-1                                            deb        
+libgs9                                                                        9.53.3~dfsg-7+deb11u5                               deb        
+libgs9-common                                                                 9.53.3~dfsg-7+deb11u5                               deb        
 libgsm1                                                                       1.0.18-2                                            deb        
 libgssapi-krb5-2                                                              1.18.3-6+deb11u3                                    deb        
 libgtk-3-0                                                                    3.24.24-4+deb11u3                                   deb        
@@ -678,9 +695,11 @@ libhogweed6                                                                   3.
 libice6                                                                       2:1.0.10-1                                          deb        
 libicu67                                                                      67.1-7                                              deb        
 libid3tag0                                                                    0.15.1b-14                                          deb        
+libidn11                                                                      1.33-3                                              deb        
 libidn2-0                                                                     2.3.0-5                                             deb        
 libiec61883-0                                                                 1.2.0-4                                             deb        
 libigdgmm11                                                                   20.4.1+ds1-1                                        deb        
+libijs-0.35                                                                   0.35-15                                             deb        
 libimlib2                                                                     1.7.1-2                                             deb        
 libinput-bin                                                                  1.16.4-3                                            deb        
 libinput10                                                                    1.16.4-3                                            deb        
@@ -689,6 +708,7 @@ libip6tc2                                                                     1.
 libisl23                                                                      0.23-1                                              deb        
 libjack-jackd2-0                                                              1.9.17~dfsg-1                                       deb        
 libjbig0                                                                      2.1-3.1+b2                                          deb        
+libjbig2dec0                                                                  0.19-2                                              deb        
 libjpeg62-turbo                                                               1:2.0.6-4                                           deb        
 libjq1                                                                        1.6-2.1                                             deb        
 libjson-glib-1.0-0                                                            1.6.2-1                                             deb        
@@ -785,6 +805,8 @@ libpango-1.0-0                                                                1.
 libpangocairo-1.0-0                                                           1.46.2-3                                            deb        
 libpangoft2-1.0-0                                                             1.46.2-3                                            deb        
 libpangoxft-1.0-0                                                             1.46.2-3                                            deb        
+libpaper-utils                                                                1.1.28+b1                                           deb        
+libpaper1                                                                     1.1.28+b1                                           deb        
 libparams-classify-perl                                                       0.015-1+b3                                          deb        
 libparams-util-perl                                                           1.102-1+b1                                          deb        
 libparams-validationcompiler-perl                                             0.30-1                                              deb        
@@ -799,6 +821,8 @@ libpipeline1                                                                  1.
 libpixman-1-0                                                                 0.40.0-1.1~deb11u1                                  deb        
 libpng16-16                                                                   1.6.37-3                                            deb        
 libpocketsphinx3                                                              0.8+5prealpha+1-13                                  deb        
+libpoppler-cpp0v5                                                             20.09.0-3.1+deb11u1                                 deb        
+libpoppler102                                                                 20.09.0-3.1+deb11u1                                 deb        
 libpostproc55                                                                 7:4.3.6-0+deb11u1                                   deb        
 libprocps8                                                                    2:3.3.17-5                                          deb        
 libproxy1v5                                                                   0.4.17-1                                            deb        
@@ -808,6 +832,7 @@ libpulsedsp                                                                   14
 libpython3-stdlib                                                             3.9.2-3                                             deb        
 libpython3.9-minimal                                                          3.9.2-1                                             deb        
 libpython3.9-stdlib                                                           3.9.2-1                                             deb        
+libqpdf28                                                                     10.1.0-1                                            deb        
 libqt5core5a                                                                  5.15.2+dfsg-9                                       deb        
 libqt5dbus5                                                                   5.15.2+dfsg-9                                       deb        
 libqt5gui5                                                                    5.15.2+dfsg-9                                       deb        
@@ -1074,7 +1099,10 @@ perl                                                                          5.
 perl-base                                                                     5.32.1-4+deb11u2                                    deb        
 perl-modules-5.32                                                             5.32.1-4+deb11u2                                    deb        
 pinentry-curses                                                               1.1.0-4                                             deb        
+poppler-data                                                                  0.4.10-1                                            deb        
+poppler-utils                                                                 20.09.0-3.1+deb11u1                                 deb        
 postcss-selector-parser                                                       6.0.13                                              npm        
+printer-driver-cups-pdf                                                       3.0.1-9                                             deb        
 proc-log                                                                      3.0.0                                               npm        
 process                                                                       0.11.10                                             npm        
 procps                                                                        2:3.3.17-5                                          deb        
