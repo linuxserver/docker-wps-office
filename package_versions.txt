@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.13                                              npm        
-@types/node                                                                   20.5.6                                              npm        
+@types/node                                                                   20.5.8                                              npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -77,8 +77,8 @@ cacache                                                                       17
 call-bind                                                                     1.0.2                                               npm        
 chalk                                                                         4.1.2                                               npm        
 chownr                                                                        2.0.0                                               npm        
-chromium                                                                      116.0.5845.110-1~deb11u1                            deb        
-chromium-common                                                               116.0.5845.110-1~deb11u1                            deb        
+chromium                                                                      116.0.5845.140-1~deb11u1                            deb        
+chromium-common                                                               116.0.5845.140-1~deb11u1                            deb        
 ci-info                                                                       3.8.0                                               npm        
 cidr-regex                                                                    3.1.1                                               npm        
 clean-stack                                                                   2.2.0                                               npm        
@@ -843,7 +843,7 @@ libraw1394-11                                                                 2.
 libreadline8                                                                  8.1-1                                               deb        
 librest-0.7-0                                                                 0.8.1-1.1                                           deb        
 librole-tiny-perl                                                             2.002004-1                                          deb        
-librsvg2-2                                                                    2.50.3+dfsg-1                                       deb        
+librsvg2-2                                                                    2.50.3+dfsg-1+deb11u1                               deb        
 librtmp1                                                                      2.4+20151223.gitfa8646d.1-2+b2                      deb        
 librubberband2                                                                1.9.0-1                                             deb        
 libsamplerate0                                                                0.2.1+ds0-1                                         deb        
