@@ -15,14 +15,13 @@ RUN \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     chromium \
-    fonts-noto-cjk \
     libqt5gui5 \
     thunar \
     tint2 && \
   echo "**** install wps-office ****" && \
   curl -o \
     /tmp/wps.deb -L \
-    "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/11691/wps-office_11.1.0.11691.XA_amd64.deb" && \
+    "https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11708/wps-office_11.1.0.11708_amd64.deb" && \
   apt install -y /tmp/wps.deb && \
   mkdir /tmp/fonts && \
   curl -o \
