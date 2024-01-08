@@ -21,7 +21,7 @@ RUN \
   echo "**** install wps-office ****" && \
   curl -o \
     /tmp/wps.deb -L \
-    "https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11708/wps-office_11.1.0.11708_amd64.deb" && \
+    "https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11711/wps-office_11.1.0.11711_amd64.deb" && \
   apt install -y /tmp/wps.deb && \
   mkdir /tmp/fonts && \
   curl -o \
