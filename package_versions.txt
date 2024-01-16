@@ -29,7 +29,7 @@ NAME                                                                          VE
 @tufjs/models                                                                 1.0.4                                               npm        
 @types/cookie                                                                 0.4.1                                               npm        
 @types/cors                                                                   2.8.17                                              npm        
-@types/node                                                                   20.10.6                                             npm        
+@types/node                                                                   20.11.0                                             npm        
 PyGObject                                                                     3.38.0                                              python     
 abbrev                                                                        1.1.1                                               npm        
 abbrev                                                                        2.0.0                                               npm        
@@ -77,8 +77,8 @@ cacache                                                                       17
 call-bind                                                                     1.0.5                                               npm        
 chalk                                                                         4.1.2                                               npm        
 chownr                                                                        2.0.0                                               npm        
-chromium                                                                      120.0.6099.199-1~deb11u1                            deb        
-chromium-common                                                               120.0.6099.199-1~deb11u1                            deb        
+chromium                                                                      120.0.6099.216-1~deb11u1                            deb        
+chromium-common                                                               120.0.6099.216-1~deb11u1                            deb        
 ci-info                                                                       3.8.0                                               npm        
 cidr-regex                                                                    3.1.1                                               npm        
 clean-stack                                                                   2.2.0                                               npm        
@@ -1310,7 +1310,7 @@ sigs.k8s.io/yaml                                                              v1
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module  
 sigstore                                                                      1.5.2                                               npm        
 smart-buffer                                                                  4.2.0                                               npm        
-socket.io                                                                     4.7.3                                               npm        
+socket.io                                                                     4.7.4                                               npm        
 socket.io-adapter                                                             2.5.2                                               npm        
 socket.io-parser                                                              4.2.4                                               npm        
 socks                                                                         2.7.1                                               npm        
@@ -1369,7 +1369,7 @@ wget                                                                          1.
 which                                                                         2.0.2                                               npm        
 which                                                                         3.0.1                                               npm        
 wide-align                                                                    1.1.5                                               npm        
-wps-office                                                                    11.1.0.11711                                        deb        
+wps-office                                                                    11.1.0.11711.XA                                     deb        
 wrap-ansi                                                                     7.0.0                                               npm        
 wrap-ansi                                                                     8.1.0                                               npm        
 wrappy                                                                        1.0.2                                               npm        
