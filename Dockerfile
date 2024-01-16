@@ -8,7 +8,8 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=WPS-Office
+ENV TITLE=WPS-Office \
+    WPS_VERSION=11.1.0.11711
 
 RUN \
   echo "**** install packages ****" && \
@@ -21,7 +22,7 @@ RUN \
   echo "**** install wps-office ****" && \
   curl -o \
     /tmp/wps.deb -L \
-    "https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11711/wps-office_11.1.0.11711_amd64.deb" && \
+    "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${WPS_VERSION##*.}/wps-office_${WPS_VERSION}.XA_amd64.deb" && \
   apt install -y /tmp/wps.deb && \
   mkdir /tmp/fonts && \
   curl -o \
