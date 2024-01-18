@@ -75,4 +75,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.01.24:", desc: "Update Chromium wrapper." }
   - { date: "21.04.23:", desc: "Initial release." }
