@@ -57,6 +57,15 @@ The architectures supported by this image are:
 | arm64 | ❌ | |
 | armhf | ❌ | |
 
+## Version Tags
+
+This image provides various versions that are available via tags. Please read the descriptions carefully and exercise caution when using unstable or development tags.
+
+| Tag | Available | Description |
+| :----: | :----: |--- |
+| latest | ✅ | Standard English release |
+| chinese | ✅ | Simplified Chinese version |
+
 ## Application Setup
 
 The application can be accessed at:
