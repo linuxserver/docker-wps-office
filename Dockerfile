@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbullseye
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
 
 # set version label
 ARG BUILD_DATE
@@ -33,6 +33,9 @@ RUN \
     /tmp/fonts/ --strip-components=1 && \
   cd /tmp/fonts && \
   bash install.sh && cd / && \
+  ln -s \
+    /usr/lib/x86_64-linux-gnu/libtiff.so.6.0.0 \
+    /usr/lib/x86_64-linux-gnu/libtiff.so.5 && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLMC/NLIMC/g' \

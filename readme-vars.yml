@@ -13,7 +13,10 @@ available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "latest"}
 
 # development version
-development_versions: false
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Standard English release" }
+  - { tag: "chinese", desc: "Simplified Chinese version" }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -75,5 +78,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "06.01.24:", desc: "Rebase to Debian Bookworm." }
   - { date: "17.01.24:", desc: "Update Chromium wrapper." }
   - { date: "21.04.23:", desc: "Initial release." }
