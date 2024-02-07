@@ -24,10 +24,10 @@
 ## Readme
 
 If you would like to change our readme, please __**do not**__ directly edit the readme, as it is auto-generated on each commit.
-Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-wps-office/edit/master/readme-vars.yml).
+Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-wps-office/edit/chinese/readme-vars.yml).
 
 These variables are used in a template for our [Jenkins Builder](https://github.com/linuxserver/docker-jenkins-builder) as part of an ansible play.
-Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io/images/docker-wps-office)
+Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io)
 
 ### Fixing typos or clarify the text in the readme
 
@@ -115,7 +115,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Update the changelog
 
-If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-wps-office/tree/master/root), add an entry to the changelog
+If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-wps-office/tree/chinese/root), add an entry to the changelog
 
 ```yml
 changelogs:
