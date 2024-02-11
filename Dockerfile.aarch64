@@ -9,9 +9,14 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE=WPS-Office \
-    LC_ALL=zh_CN.UTF-8
+    LC_ALL=zh_CN.UTF-8 \
+    NO_FULL=true
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png && \
   echo "**** install packages ****" && \
   pacman -Sy --noconfirm --needed \
     chromium \
