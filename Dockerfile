@@ -12,10 +12,15 @@ ENV TITLE=WPS-Office \
     WPS_VERSION=11.1.0.11711
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     chromium \
+    chromium-l10n \
     libqt5gui5 \
     thunar \
     tint2 && \
@@ -40,7 +45,6 @@ RUN \
   sed -i \
     's/NLMC/NLIMC/g' \
     /etc/xdg/openbox/rc.xml && \
-  sed -i 's|</applications>|  <application title="WPS" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** application tweaks ****" && \
   sed -i \
     's#^Exec=.*#Exec=/usr/local/bin/wrapped-chromium#g' \
