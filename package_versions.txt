@@ -568,7 +568,7 @@ libfontenc                                                                    1.
 libgcrypt                                                                     1.10.3-1                                   alpm          
 libglvnd                                                                      1.7.0-1                                    alpm          
 libgpg-error                                                                  1.47-1                                     alpm          
-libgtop                                                                       2.41.2-1                                   alpm          
+libgtop                                                                       2.41.3-1                                   alpm          
 libgudev                                                                      238-1                                      alpm          
 libice                                                                        1.1.1-2                                    alpm          
 libidn                                                                        1.42-1                                     alpm          
