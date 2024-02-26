@@ -1387,7 +1387,7 @@ wget                                                                          1.
 which                                                                         2.0.2                                        npm        
 which                                                                         4.0.0                                        npm        
 wide-align                                                                    1.1.5                                        npm        
-wps-office                                                                    11.1.0.11711.XA                              deb        
+wps-office                                                                    11.1.0.11719.XA                              deb        
 wrap-ansi                                                                     7.0.0                                        npm        
 wrap-ansi                                                                     8.1.0                                        npm        
 write-file-atomic                                                             5.0.1                                        npm        
