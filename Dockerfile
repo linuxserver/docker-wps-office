@@ -9,7 +9,7 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE=WPS-Office \
-    WPS_VERSION=11.1.0.11711
+    WPS_VERSION=11.1.0.11719
 
 RUN \
   echo "**** add icon ****" && \
