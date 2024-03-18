@@ -21,7 +21,7 @@ archlinux-keyring                                                             20
 argon2                                                                        20190702-5                                          alpm                           
 array-flatten                                                                 1.1.1                                               npm                            
 async                                                                         3.2.5                                               npm                            
-at-spi2-core                                                                  2.50.1-1                                            alpm                           
+at-spi2-core                                                                  2.50.2-1                                            alpm                           
 attr                                                                          2.5.2-1                                             alpm                           
 audit                                                                         4.0.1-2                                             alpm                           
 autoconf                                                                      2.72-1                                              alpm                           
@@ -50,7 +50,7 @@ cairo                                                                         1.
 call-bind                                                                     1.0.7                                               npm                            
 cantarell-fonts                                                               1:0.303.1-1                                         alpm                           
 chalk                                                                         4.1.2                                               npm                            
-chromium                                                                      122.0.6261.128-1                                    alpm                           
+chromium                                                                      123.0.6312.46-1                                     alpm                           
 cloud.google.com/go/compute/metadata                                          v0.2.3                                              go-module                      
 cloud.google.com/go/logging                                                   v1.7.0                                              go-module                      
 cloud.google.com/go/longrunning                                               v0.5.1                                              go-module                      
@@ -796,8 +796,8 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                                python                         
 qpdf                                                                          11.9.0-1                                            alpm                           
 qs                                                                            6.11.0                                              npm                            
-qt5-base                                                                      5.15.12+kde+r151-1                                  alpm                           
-qt5-translations                                                              5.15.12-1                                           alpm                           
+qt5-base                                                                      5.15.13+kde+r138-1                                  alpm                           
+qt5-translations                                                              5.15.13-1                                           alpm                           
 range-parser                                                                  1.2.1                                               npm                            
 rav1e                                                                         0.7.1-1                                             alpm                           
 raw-body                                                                      2.5.2                                               npm                            
