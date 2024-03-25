@@ -9,8 +9,8 @@ abseil-cpp                                                                    20
 accepts                                                                       1.3.8                                               npm                            
 acl                                                                           2.3.2-1                                             alpm                           
 adobe-source-code-pro-fonts                                                   2.042u+1.062i+1.026vf-1                             alpm                           
-adwaita-cursors                                                               45.0-1                                              alpm                           
-adwaita-icon-theme                                                            45.0-1                                              alpm                           
+adwaita-cursors                                                               46.0-1                                              alpm                           
+adwaita-icon-theme                                                            46.0-1                                              alpm                           
 alsa-lib                                                                      1.2.11-1                                            alpm                           
 alsa-topology-conf                                                            1.2.5.1-3                                           alpm                           
 alsa-ucm-conf                                                                 1.2.11-1                                            alpm                           
@@ -21,7 +21,7 @@ archlinux-keyring                                                             20
 argon2                                                                        20190702-5                                          alpm                           
 array-flatten                                                                 1.1.1                                               npm                            
 async                                                                         3.2.5                                               npm                            
-at-spi2-core                                                                  2.50.2-1                                            alpm                           
+at-spi2-core                                                                  2.52.0-1                                            alpm                           
 attr                                                                          2.5.2-1                                             alpm                           
 audit                                                                         4.0.1-2                                             alpm                           
 autoconf                                                                      2.72-1                                              alpm                           
@@ -387,7 +387,7 @@ github.com/xeipuuv/gojsonreference                                            v0
 github.com/xeipuuv/gojsonschema                                               v1.2.0                                              go-module                      
 github.com/zmap/zcrypto                                                       v0.0.0-20210511125630-18f1e0152cfc                  go-module                      
 github.com/zmap/zlint/v3                                                      v3.1.0                                              go-module                      
-glib-networking                                                               1:2.78.1-1                                          alpm                           
+glib-networking                                                               1:2.80.0-1                                          alpm                           
 glib2                                                                         2.78.4-1                                            alpm                           
 glibc                                                                         2.39-1                                              alpm                           
 glslang                                                                       14.0.0-2                                            alpm                           
@@ -468,9 +468,9 @@ gpgme                                                                         1.
 graphite                                                                      1:1.3.14-3                                          alpm                           
 grep                                                                          3.11-1                                              alpm                           
 groff                                                                         1.23.0-5                                            alpm                           
-gsettings-desktop-schemas                                                     45.0-1                                              alpm                           
+gsettings-desktop-schemas                                                     46.0-1                                              alpm                           
 gsm                                                                           1.0.22-1                                            alpm                           
-gtk-update-icon-cache                                                         1:4.12.5-1                                          alpm                           
+gtk-update-icon-cache                                                         1:4.14.1-1                                          alpm                           
 gtk3                                                                          1:3.24.41-1                                         alpm                           
 guile                                                                         3.0.9-1                                             alpm                           
 gzip                                                                          1.13-2                                              alpm                           
@@ -555,6 +555,7 @@ libdeflate                                                                    1.
 libdovi                                                                       3.2.0-2                                             alpm                           
 libdrm                                                                        2.4.120-1                                           alpm                           
 libedit                                                                       20230828_3.1-1                                      alpm                           
+libei                                                                         1.2.1-1                                             alpm                           
 libelf                                                                        0.191-1                                             alpm                           
 libepoxy                                                                      1.5.10-2                                            alpm                           
 libevdev                                                                      1.13.1-1                                            alpm                           
@@ -654,8 +655,8 @@ libxfont2                                                                     2.
 libxft                                                                        2.3.8-1                                             alpm                           
 libxi                                                                         1.8.1-1                                             alpm                           
 libxinerama                                                                   1.1.5-1                                             alpm                           
-libxkbcommon                                                                  1.6.0-1                                             alpm                           
-libxkbcommon-x11                                                              1.6.0-1                                             alpm                           
+libxkbcommon                                                                  1.7.0-1                                             alpm                           
+libxkbcommon-x11                                                              1.7.0-1                                             alpm                           
 libxkbfile                                                                    1.1.3-1                                             alpm                           
 libxml2                                                                       2.12.6-1                                            alpm                           
 libxmu                                                                        1.1.4-1                                             alpm                           
@@ -796,7 +797,7 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                                python                         
 qpdf                                                                          11.9.0-1                                            alpm                           
 qs                                                                            6.11.0                                              npm                            
-qt5-base                                                                      5.15.13+kde+r138-1                                  alpm                           
+qt5-base                                                                      5.15.13+kde+r142-1                                  alpm                           
 qt5-translations                                                              5.15.13-1                                           alpm                           
 range-parser                                                                  1.2.1                                               npm                            
 rav1e                                                                         0.7.1-1                                             alpm                           
@@ -851,7 +852,7 @@ thunar                                                                        4.
 tint2                                                                         17.0.2-3                                            alpm                           
 toidentifier                                                                  1.0.1                                               npm                            
 tpm2-tss                                                                      4.0.1-1                                             alpm                           
-tracker3                                                                      3.6.0-3                                             alpm                           
+tracker3                                                                      3.7.0-1                                             alpm                           
 tslib                                                                         1.23-1                                              alpm                           
 ttf-liberation                                                                2.1.5-1                                             alpm                           
 turbojpeg                                                                                                                         java-archive                   
