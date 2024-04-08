@@ -630,7 +630,7 @@ libpciaccess                                                                  0.
 libplacebo                                                                    6.338.2-2                                 alpm                            
 libpng                                                                        1.6.43-1                                  alpm                            
 libppd                                                                        2.0.0-1                                   alpm                            
-libproxy                                                                      0.5.4-1                                   alpm                            
+libproxy                                                                      0.5.5-1                                   alpm                            
 libpsl                                                                        0.21.2-1                                  alpm                            
 libpulse                                                                      17.0-3                                    alpm                            
 libraw1394                                                                    2.1.2-3                                   alpm                            
