@@ -2,7 +2,8 @@
 
 # jenkins variables
 project_name: docker-wps-office
-external_type: os
+external_type: na
+custom_version_command: "curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=wps-office | awk -F'=' '/^pkgver=/ {print $2}'"
 release_type: stable
 release_tag: latest
 ls_branch: master

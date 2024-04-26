@@ -8,8 +8,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=WPS-Office \
-    WPS_VERSION=11.1.0.11719
+ENV TITLE=WPS-Office
 
 RUN \
   echo "**** add icon ****" && \
@@ -25,9 +24,13 @@ RUN \
     thunar \
     tint2 && \
   echo "**** install wps-office ****" && \
+  if [ -z ${WPSOFFICE_VERSION+x} ]; then \
+    WPSOFFICE_VERSION=$(curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=wps-office \
+    |awk -F'=' '/^pkgver=/ {print $2}'); \
+  fi && \
   curl -o \
     /tmp/wps.deb -L \
-    "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${WPS_VERSION##*.}/wps-office_${WPS_VERSION}.XA_amd64.deb" && \
+    "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${WPSOFFICE_VERSION##*.}/wps-office_${WPSOFFICE_VERSION}.XA_amd64.deb" && \
   apt install -y /tmp/wps.deb && \
   mkdir /tmp/fonts && \
   curl -o \
