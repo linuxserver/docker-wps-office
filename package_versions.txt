@@ -51,7 +51,7 @@ call-bind                                                                     1.
 cantarell-fonts                                                               1:0.303.1-1                               alpm                           
 catatonit                                                                     0.2.0-3                                   alpm                           
 chalk                                                                         4.1.2                                     npm                            
-chromium                                                                      124.0.6367.201-1                          alpm                           
+chromium                                                                      125.0.6422.41-1                           alpm                           
 cloud.google.com/go/compute/metadata                                          v0.2.3                                    go-module                      
 cloud.google.com/go/logging                                                   v1.8.1                                    go-module                      
 cloud.google.com/go/longrunning                                               v0.5.2                                    go-module                      
