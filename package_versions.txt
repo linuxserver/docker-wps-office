@@ -723,7 +723,7 @@ nettle                                                                        3.
 nginx                                                                         1.26.1-1                                alpm                            
 nodejs                                                                        22.2.0-1                                alpm                            
 noto-fonts                                                                    1:24.6.1-1                              alpm                            
-noto-fonts-cjk                                                                20230817-1                              alpm                            
+noto-fonts-cjk                                                                20230817-2                              alpm                            
 noto-fonts-emoji                                                              1:2.042-1                               alpm                            
 npth                                                                          1.7-1                                   alpm                            
 nspr                                                                          4.35-2                                  alpm                            
