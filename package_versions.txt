@@ -534,7 +534,7 @@ jbigkit                                                                       2.
 jpegxl                                                                                                                java-archive                   
 jq                                                                            1.7.1-2                                 alpm                           
 json-c                                                                        0.17-1                                  alpm                           
-json-glib                                                                     1.8.0-1                                 alpm                           
+json-glib                                                                     1.8.0-2                                 alpm                           
 k8s.io/api                                                                    v0.26.2                                 go-module                      
 k8s.io/api                                                                    v0.29.2                                 go-module                      
 k8s.io/apimachinery                                                           v0.26.2                                 go-module     (+1 duplicate)   
