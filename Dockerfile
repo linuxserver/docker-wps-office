@@ -22,6 +22,7 @@ RUN \
     chromium \
     noto-fonts-cjk \
     git \
+    qt6-base \
     tint2 \
     thunar && \
   echo "**** install wps-office ****" && \
