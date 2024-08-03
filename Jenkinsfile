@@ -25,7 +25,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/wps-office'
     PR_DOCKERHUB_IMAGE = 'lspipepr/wps-office'
     DIST_IMAGE = 'arch'
-    MULTIARCH = 'true'
+    MULTIARCH = 'false'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '3000'
