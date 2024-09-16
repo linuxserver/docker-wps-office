@@ -52,7 +52,7 @@ call-bind                                                                     1.
 cantarell-fonts                                                               1:0.303.1-2                             alpm                           
 catatonit                                                                     0.2.0-3                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      128.0.6613.137-1                        alpm                           
+chromium                                                                      129.0.6668.42-1                         alpm                           
 cloud.google.com/go/compute/metadata                                          v0.3.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.4                                  go-module                      
@@ -534,7 +534,7 @@ intel-media-driver                                                            24
 ipaddr.js                                                                     1.9.1                                   npm                            
 iproute2                                                                      6.10.0-2                                alpm                           
 iptables                                                                      1:1.8.10-2                              alpm                           
-iso-codes                                                                     4.16.0-1                                alpm                           
+iso-codes                                                                     4.17.0-1                                alpm                           
 jack2                                                                         1.9.22-1                                alpm                           
 jake                                                                          10.9.2                                  npm                            
 jansson                                                                       2.14-4                                  alpm                           
