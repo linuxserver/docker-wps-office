@@ -31,7 +31,7 @@ avahi                                                                         1:
 balanced-match                                                                1.0.2                                   npm                            
 base-devel                                                                    1-2                                     alpm                           
 base64id                                                                      2.0.0                                   npm                            
-bash                                                                          5.2.032-2                               alpm                           
+bash                                                                          5.2.037-1                               alpm                           
 bindings                                                                      1.5.0                                   npm                            
 binutils                                                                      2.43+r4+g7999dae6961-1                  alpm                           
 bison                                                                         3.8.2-8                                 alpm                           
@@ -832,8 +832,8 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                    python                         
 qpdf                                                                          11.9.1-1                                alpm                           
 qs                                                                            6.13.0                                  npm                            
-qt6-base                                                                      6.7.2-2                                 alpm                           
-qt6-translations                                                              6.7.2-1                                 alpm                           
+qt6-base                                                                      6.7.3-1                                 alpm                           
+qt6-translations                                                              6.7.3-1                                 alpm                           
 range-parser                                                                  1.2.1                                   npm                            
 rav1e                                                                         0.7.1-1                                 alpm                           
 raw-body                                                                      2.5.2                                   npm                            
@@ -859,7 +859,7 @@ sigs.k8s.io/json                                                              v0
 sigs.k8s.io/structured-merge-diff/v4                                          v4.2.3                                  go-module                      
 sigs.k8s.io/structured-merge-diff/v4                                          v4.4.1                                  go-module                      
 sigs.k8s.io/yaml                                                              v1.3.0                                  go-module     (+3 duplicates)  
-snappy                                                                        1.1.10-1                                alpm                           
+snappy                                                                        1.2.1-2                                 alpm                           
 socket.io                                                                     4.8.0                                   npm                            
 socket.io-adapter                                                             2.5.5                                   npm                            
 socket.io-parser                                                              4.2.4                                   npm                            
