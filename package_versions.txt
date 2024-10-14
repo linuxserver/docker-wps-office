@@ -2,6 +2,7 @@ NAME                                                                          VE
 1to2                                                                          1.0.0                                   npm                            
 @kasmtech/novnc                                                               1.3.0                                   npm                            
 @socket.io/component-emitter                                                  3.1.2                                   npm                            
+@socket.io/component-emitter                                                  UNKNOWN                                 npm           (+1 duplicate)   
 @types/cookie                                                                 0.4.1                                   npm                            
 @types/cors                                                                   2.8.17                                  npm                            
 @types/node                                                                   22.7.4                                  npm                            
@@ -52,7 +53,7 @@ call-bind                                                                     1.
 cantarell-fonts                                                               1:0.303.1-2                             alpm                           
 catatonit                                                                     0.2.0-3                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      129.0.6668.89-1                         alpm                           
+chromium                                                                      129.0.6668.100-1                        alpm                           
 cloud.google.com/go/compute/metadata                                          v0.3.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.4                                  go-module                      
@@ -106,6 +107,7 @@ encodeurl                                                                     1.
 encodeurl                                                                     2.0.0                                   npm                            
 engine.io                                                                     6.6.1                                   npm                            
 engine.io-parser                                                              5.2.3                                   npm                            
+engine.io-parser                                                              UNKNOWN                                 npm           (+1 duplicate)   
 es-define-property                                                            1.0.0                                   npm                            
 es-errors                                                                     1.3.0                                   npm                            
 escape-html                                                                   1.0.3                                   npm                            
@@ -501,7 +503,7 @@ gsettings-system-schemas                                                      47
 gsm                                                                           1.0.22-2                                alpm                           
 gtest                                                                         1.15.2-1                                alpm                           
 gtk-update-icon-cache                                                         1:4.16.3-1                              alpm                           
-gtk3                                                                          1:3.24.43-3                             alpm                           
+gtk3                                                                          1:3.24.43-4                             alpm                           
 guile                                                                         3.0.10-1                                alpm                           
 gzip                                                                          1.13-4                                  alpm                           
 harfbuzz                                                                      10.0.1-1                                alpm                           
