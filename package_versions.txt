@@ -91,7 +91,7 @@ debugedit                                                                     5.
 default-cursors                                                               3-1                                     alpm                           
 define-data-property                                                          1.1.4                                   npm                            
 depd                                                                          2.0.0                                   npm                            
-desktop-file-utils                                                            0.27-1                                  alpm                           
+desktop-file-utils                                                            0.28-1                                  alpm                           
 destroy                                                                       1.2.0                                   npm                            
 device-mapper                                                                 2.03.27-1                               alpm                           
 diffutils                                                                     3.10-1                                  alpm                           
