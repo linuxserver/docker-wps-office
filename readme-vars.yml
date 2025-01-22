@@ -6,6 +6,7 @@ project_url: "https://www.wps.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png"
 project_blurb: "[WPS Office]({{ project_url }}) is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Documents"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
