@@ -52,7 +52,7 @@ call-bound                                                                    1.
 cantarell-fonts                                                               1:0.303.1-2                             alpm                           
 catatonit                                                                     0.2.1-1                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      132.0.6834.159-1                        alpm                           
+chromium                                                                      133.0.6943.35-1                         alpm                           
 cloud.google.com/go/compute/metadata                                          v0.3.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.4                                  go-module                      
@@ -778,7 +778,7 @@ nettle                                                                        3.
 nginx                                                                         1.26.2-1                                alpm                           
 nodejs-lts-hydrogen                                                           18.20.5-1                               alpm                           
 noto-fonts                                                                    1:2025.01.01-1                          alpm                           
-noto-fonts-cjk                                                                20230817-2                              alpm                           
+noto-fonts-cjk                                                                20240730-1                              alpm                           
 noto-fonts-emoji                                                              1:2.047-1                               alpm                           
 npth                                                                          1.8-1                                   alpm                           
 nspr                                                                          4.36-1                                  alpm                           
@@ -869,8 +869,8 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                    python                         
 qpdf                                                                          11.9.1-1                                alpm                           
 qs                                                                            6.13.0                                  npm                            
-qt6-base                                                                      6.8.1-1                                 alpm                           
-qt6-translations                                                              6.8.1-1                                 alpm                           
+qt6-base                                                                      6.8.2-1                                 alpm                           
+qt6-translations                                                              6.8.2-1                                 alpm                           
 range-parser                                                                  1.2.1                                   npm                            
 rav1e                                                                         0.7.1-1                                 alpm                           
 raw-body                                                                      2.5.2                                   npm                            
