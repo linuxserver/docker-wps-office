@@ -94,7 +94,7 @@ device-mapper                                                                 2.
 diffutils                                                                     3.10-1                                  alpm                           
 docker                                                                        1:27.5.1-1                              alpm                           
 docker-compose                                                                2.33.0-1                                alpm                           
-double-conversion                                                             3.3.0-2                                 alpm                           
+double-conversion                                                             3.3.1-1                                 alpm                           
 duktape                                                                       2.7.0-7                                 alpm                           
 dunder-proto                                                                  1.0.1                                   npm                            
 dunst                                                                         1.12.1-1                                alpm                           
@@ -908,7 +908,7 @@ tags.cncf.io/container-device-interface/specs-go                              v0
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.13-1                                alpm                           
 texinfo                                                                       7.1.1-1                                 alpm                           
-thunar                                                                        4.20.1-1                                alpm                           
+thunar                                                                        4.20.2-1                                alpm                           
 tint2                                                                         17.0.2-4                                alpm                           
 tinysparql                                                                    3.8.2-2                                 alpm                           
 toidentifier                                                                  1.0.1                                   npm                            
