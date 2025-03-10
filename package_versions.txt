@@ -51,7 +51,7 @@ call-bound                                                                    1.
 cantarell-fonts                                                               1:0.303.1-2                             alpm                           
 catatonit                                                                     0.2.1-1                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      134.0.6998.35-1                         alpm                           
+chromium                                                                      134.0.6998.35-2                         alpm                           
 cloud.google.com/go/compute/metadata                                          v0.5.2                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.4                                  go-module                      
@@ -491,7 +491,7 @@ gsettings-system-schemas                                                      47
 gsm                                                                           1.0.22-2                                alpm                           
 gtest                                                                         1.15.2-1                                alpm                           
 gtk-update-icon-cache                                                         1:4.16.12-1                             alpm                           
-gtk3                                                                          1:3.24.48-2                             alpm                           
+gtk3                                                                          1:3.24.49-1                             alpm                           
 guile                                                                         3.0.10-1                                alpm                           
 gzip                                                                          1.13-4                                  alpm                           
 harfbuzz                                                                      10.4.0-1                                alpm                           
