@@ -831,7 +831,7 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                    python                         
 qpdf                                                                          12.2.0-1                                alpm                           
 qs                                                                            6.13.0                                  npm                            
-qt6-base                                                                      6.9.0-1                                 alpm                           
+qt6-base                                                                      6.9.0-2                                 alpm                           
 qt6-translations                                                              6.9.0-1                                 alpm                           
 range-parser                                                                  1.2.1                                   npm                            
 rav1e                                                                         0.7.1-1                                 alpm                           
