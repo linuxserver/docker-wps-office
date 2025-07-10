@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
+FROM ghcr.io/linuxserver/baseimage-selkies:arch
 
 # set version label
 ARG BUILD_DATE
@@ -8,30 +8,28 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thelamer"
 
 # title
-ENV TITLE=WPS-Office
+ENV TITLE=WPS-Office \
+    NO_FULL=true \
+    NO_GAMEPAD=true
 
 RUN \
   echo "**** add icon ****" && \
   curl -o \
-    /kclient/public/icon.png \
+    /usr/share/selkies/www/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png && \
   echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install --no-install-recommends -y \
+  pacman -Sy --noconfirm --needed \
     chromium \
-    chromium-l10n \
-    libqt5gui5 \
-    thunar \
-    tint2 && \
+    git \
+    qt6-base \
+    tint2 \
+    thunar && \
   echo "**** install wps-office ****" && \
-  if [ -z ${WPSOFFICE_VERSION+x} ]; then \
-    WPSOFFICE_VERSION=$(curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=wps-office \
-    |awk -F'=' '/^pkgver=/ {print $2}'); \
-  fi && \
-  curl -o \
-    /tmp/wps.deb -L \
-    "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${WPSOFFICE_VERSION##*.}/wps-office_${WPSOFFICE_VERSION}.XA_amd64.deb" && \
-  apt install -y /tmp/wps.deb && \
+  cd /tmp && \
+  git clone https://aur.archlinux.org/wps-office-cn.git && \
+  chown -R abc:abc wps-office-cn && \
+  cd wps-office-cn && \
+  sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
   mkdir /tmp/fonts && \
   curl -o \
     /tmp/fonts.tar.gz -L \
@@ -42,22 +40,23 @@ RUN \
   cd /tmp/fonts && \
   bash install.sh && cd / && \
   ln -s \
-    /usr/lib/x86_64-linux-gnu/libtiff.so.6.0.0 \
-    /usr/lib/x86_64-linux-gnu/libtiff.so.5 && \
-  echo "**** openbox tweaks ****" && \
-  sed -i \
-    's/NLMC/NLIMC/g' \
-    /etc/xdg/openbox/rc.xml && \
+    /usr/lib/libtiff.so.6 \
+    /usr/lib/libtiff.so.5 && \
   echo "**** application tweaks ****" && \
-  sed -i \
-    's#^Exec=.*#Exec=/usr/local/bin/wrapped-chromium#g' \
-    /usr/share/applications/chromium.desktop && \
+  mv \
+    /usr/bin/chromium \
+    /usr/bin/chromium-real && \
+  mv \
+    /usr/bin/thunar \
+    /usr/bin/thunar-real && \
   echo "**** cleanup ****" && \
-  apt-get autoclean && \
+  pacman -Rsn --noconfirm \
+    git \
+    $(pacman -Qdtq) && \
   rm -rf \
-    /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+    /tmp/* \
+    /var/cache/pacman/pkg/* \
+    /var/lib/pacman/sync/*
 
 # add local files
 COPY /root /
