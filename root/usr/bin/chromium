@@ -1,6 +1,6 @@
 #! /bin/bash
 
-BIN=/usr/bin/chromium
+BIN=/usr/bin/chromium-real
 
 # Cleanup
 if ! pgrep chromium > /dev/null;then
