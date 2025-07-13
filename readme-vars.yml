@@ -11,11 +11,6 @@ project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "latest"}
-# development version
-development_versions: true
-development_versions_items:
-  - {tag: "latest", desc: "Standard English release"}
-  - {tag: "chinese", desc: "Simplified Chinese version"}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -27,19 +22,16 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores program settings and documents"}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "WPS Office desktop gui."}
+  - {external_port: "3000", internal_port: "3000", port_desc: "WPS Office desktop gui, must be proxied."}
   - {external_port: "3001", internal_port: "3001", port_desc: "WPS Office desktop gui HTTPS."}
 custom_params:
   - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "This is needed for electron applications to function properly."}
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker."}
-# Kasm blurb settings
-kasm_blurb: true
+# Selkies blurb settings
+selkies_blurb: true
 show_nvidia: true
-external_http_port: "3000"
-external_https_port: "3001"
-noto_fonts: "fonts-noto-cjk"
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -109,6 +101,7 @@ init_diagram: |
   "wps-office:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "10.07.25:", desc: "Rebase to Selkies HTTPS IS NOW REQUIRED, merge chinese and english image."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "06.01.24:", desc: "Rebase to Debian Bookworm."}
   - {date: "17.01.24:", desc: "Update Chromium wrapper."}
