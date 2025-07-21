@@ -50,7 +50,7 @@ call-bind-apply-helpers                                                       1.
 call-bound                                                                    1.0.4                                   npm                            
 catatonit                                                                     0.2.1-1                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      138.0.7204.92-1                         alpm                           
+chromium                                                                      138.0.7204.157-1                        alpm                           
 cloud.google.com/go/compute/metadata                                          v0.6.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.5                                  go-module                      
@@ -866,7 +866,7 @@ tags.cncf.io/container-device-interface/specs-go                              v1
 tar                                                                           1.35-2                                  alpm                           
 tdb                                                                           1.4.13-1                                alpm                           
 texinfo                                                                       7.2-1                                   alpm                           
-thunar                                                                        4.20.3-1                                alpm                           
+thunar                                                                        4.20.4-1                                alpm                           
 tint2                                                                         17.0.2-4                                alpm                           
 tinysparql                                                                    3.9.2-2                                 alpm                           
 toidentifier                                                                  1.0.1                                   npm                            
