@@ -50,7 +50,7 @@ call-bind-apply-helpers                                                       1.
 call-bound                                                                    1.0.4                                   npm                            
 catatonit                                                                     0.2.1-1                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      138.0.7204.157-1                        alpm                           
+chromium                                                                      138.0.7204.168-1                        alpm                           
 cloud.google.com/go/compute/metadata                                          v0.6.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.5                                  go-module                      
@@ -811,7 +811,7 @@ python-pyxdg                                                                  0.
 pyxdg                                                                         0.28                                    python                         
 qpdf                                                                          12.2.0-1                                alpm                           
 qs                                                                            6.13.0                                  npm                            
-qt6-base                                                                      6.9.1-4                                 alpm                           
+qt6-base                                                                      6.9.1-5                                 alpm                           
 qt6-translations                                                              6.9.1-1                                 alpm                           
 range-parser                                                                  1.2.1                                   npm                            
 rav1e                                                                         0.7.1-1                                 alpm                           
