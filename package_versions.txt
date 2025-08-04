@@ -21,7 +21,7 @@ aom                                                                           3.
 archlinux-keyring                                                             20250707-1                              alpm                           
 array-flatten                                                                 1.1.1                                   npm                            
 async                                                                         3.2.6                                   npm                            
-at-spi2-core                                                                  2.56.3-1                                alpm                           
+at-spi2-core                                                                  2.56.4-1                                alpm                           
 attr                                                                          2.5.2-1                                 alpm                           
 audit                                                                         4.0.5-1                                 alpm                           
 autoconf                                                                      2.72-1                                  alpm                           
@@ -50,7 +50,7 @@ call-bind-apply-helpers                                                       1.
 call-bound                                                                    1.0.4                                   npm                            
 catatonit                                                                     0.2.1-1                                 alpm                           
 chalk                                                                         4.1.2                                   npm                            
-chromium                                                                      138.0.7204.168-1                        alpm                           
+chromium                                                                      139.0.7258.66-1                         alpm                           
 cloud.google.com/go/compute/metadata                                          v0.6.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
 cloud.google.com/go/longrunning                                               v0.5.5                                  go-module                      
