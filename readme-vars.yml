@@ -14,9 +14,6 @@ available_architectures:
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores program settings and documents"}
@@ -26,9 +23,6 @@ param_ports:
   - {external_port: "3001", internal_port: "3001", port_desc: "WPS Office desktop gui HTTPS."}
 custom_params:
   - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "This is needed for electron applications to function properly."}
-opt_security_opt_param: true
-opt_security_opt_param_vars:
-  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker."}
 # Selkies blurb settings
 selkies_blurb: true
 show_nvidia: true
@@ -37,7 +31,6 @@ app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
 
-  * http://yourhost:3000/
   * https://yourhost:3001/
 # init diagram
 init_diagram: |
