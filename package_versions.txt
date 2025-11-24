@@ -15,7 +15,7 @@ alsa-lib                                                                      1.
 alsa-topology-conf                                                            1.2.5.1-4                               alpm                           
 alsa-ucm-conf                                                                 1.2.14-2                                alpm                           
 archlinux-keyring                                                             20251116-1                              alpm                           
-at-spi2-core                                                                  2.58.1-2                                alpm                           
+at-spi2-core                                                                  2.58.2-1                                alpm                           
 attr                                                                          2.5.2-1                                 alpm                           
 attrs                                                                         25.4.0                                  python                         
 audit                                                                         4.1.2-1                                 alpm                           
