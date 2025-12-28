@@ -1,0 +1,13 @@
+# default file copies first run
+if [ ! -f $HOME/.config/Kingsoft/Office.conf ]; then
+mkdir -p $HOME/.config/Kingsoft
+echo "[kdcsdk]
+NotFirstOpen=true
+[6.0]
+common\\AcceptedEULA=true" > $HOME/.config/Kingsoft/Office.conf
+fi
+
+
+# Start UI
+sfwbar &
+wps

@@ -100,6 +100,7 @@ init_diagram: |
   "wps-office:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "10.07.25:", desc: "Rebase to Selkies HTTPS IS NOW REQUIRED, merge chinese and english image."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "06.01.24:", desc: "Rebase to Debian Bookworm."}

@@ -26,6 +26,12 @@ RUN \
     qt6-base \
     tint2 \
     thunar && \
+  echo "**** install sfwbar ****" && \
+  cd /tmp && \
+  git clone https://aur.archlinux.org/sfwbar.git && \
+  chown -R abc:abc sfwbar && \
+  cd sfwbar && \
+  sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
   echo "**** install wps-office ****" && \
   cd /tmp && \
   git clone https://aur.archlinux.org/wps-office-cn.git && \
