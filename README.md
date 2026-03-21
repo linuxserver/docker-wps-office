@@ -612,6 +612,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **21.03.26:** - Use Wayland ozone platform for chromium fixes scaling and acceleration.
 * **28.12.25:** - Add Wayland init logic.
 * **10.07.25:** - Rebase to Selkies HTTPS IS NOW REQUIRED, merge chinese and english image.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
