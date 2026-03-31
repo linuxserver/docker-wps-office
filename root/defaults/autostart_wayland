@@ -1,4 +1,11 @@
+#!/bin/bash
+
 # default file copies first run
+if [ ! -f "${HOME}/Desktop/wps-office-prometheus.desktop" ]; then
+  cp /usr/share/applications/wps-office-prometheus.desktop "${HOME}/Desktop/"
+  cp /usr/share/applications/chromium.desktop "${HOME}/Desktop/"
+fi
+
 if [ ! -f $HOME/.config/Kingsoft/Office.conf ]; then
 mkdir -p $HOME/.config/Kingsoft
 echo "[kdcsdk]
@@ -7,7 +14,8 @@ NotFirstOpen=true
 common\\AcceptedEULA=true" > $HOME/.config/Kingsoft/Office.conf
 fi
 
+gio mime x-scheme-handler/http chromium.desktop
+gio mime x-scheme-handler/https chromium.desktop
+gio mime application/x-terminal-emulator foot.desktop
 
-# Start UI
-sfwbar &
-wps
+touch "${HOME}/.config/panel-reload"

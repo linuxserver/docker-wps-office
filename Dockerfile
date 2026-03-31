@@ -12,7 +12,9 @@ LABEL maintainer="thelamer"
 # title
 ENV TITLE=WPS-Office \
     NO_FULL=true \
-    NO_GAMEPAD=true
+    NO_GAMEPAD=true \
+    PIXELFLUX_WAYLAND=true \
+    SELKIES_DESKTOP=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -26,12 +28,6 @@ RUN \
     qt6-base \
     tint2 \
     thunar && \
-  echo "**** install sfwbar ****" && \
-  cd /tmp && \
-  git clone https://aur.archlinux.org/sfwbar.git && \
-  chown -R abc:abc sfwbar && \
-  cd sfwbar && \
-  sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
   echo "**** install wps-office ****" && \
   cd /tmp && \
   git clone https://aur.archlinux.org/wps-office-cn.git && \
@@ -63,6 +59,19 @@ RUN \
     $(pacman -Qdtq) && \
   rm -rf \
     /tmp/* \
+    /usr/share/applications/avahi-discover.desktop \
+    /usr/share/applications/bssh.desktop \
+    /usr/share/applications/bvnc.desktop \
+    /usr/share/applications/cmake-gui.desktop \
+    /usr/share/applications/footclient.desktop \
+    /usr/share/applications/foot-server.desktop \
+    /usr/share/applications/thunar-bulk-rename.desktop \
+    /usr/share/applications/thunar-settings.desktop \
+    /usr/share/applications/tint2conf.desktop \
+    /usr/share/applications/tint2.desktop \
+    /usr/share/applications/uxterm.desktop \
+    /usr/share/applications/xfce4-about.desktop \
+    /usr/share/applications/xterm.desktop \
     /var/cache/pacman/pkg/* \
     /var/lib/pacman/sync/*
 
