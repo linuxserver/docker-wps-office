@@ -100,6 +100,7 @@ init_diagram: |
   "wps-office:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "11.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "21.03.26:", desc: "Use Wayland ozone platform for chromium fixes scaling and acceleration."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "10.07.25:", desc: "Rebase to Selkies HTTPS IS NOW REQUIRED, merge chinese and english image."}
