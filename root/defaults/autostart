@@ -1,8 +1,11 @@
+#!/bin/bash
+
 # default file copies first run
-if [ ! -f $HOME/.config/tint2/tint2rc ]; then
-    mkdir -p $HOME/.config/tint2
-    cp /defaults/tint2rc $HOME/.config/tint2/tint2rc
+if [ ! -f "${HOME}/Desktop/wps-office-prometheus.desktop" ]; then
+  cp /usr/share/applications/wps-office-prometheus.desktop "${HOME}/Desktop/"
+  cp /usr/share/applications/chromium.desktop "${HOME}/Desktop/"
 fi
+
 if [ ! -f $HOME/.config/Kingsoft/Office.conf ]; then
 mkdir -p $HOME/.config/Kingsoft
 echo "[kdcsdk]
@@ -11,7 +14,7 @@ NotFirstOpen=true
 common\\AcceptedEULA=true" > $HOME/.config/Kingsoft/Office.conf
 fi
 
+gio mime x-scheme-handler/http chromium.desktop
+gio mime x-scheme-handler/https chromium.desktop
 
-# Start UI
-tint2 &
-wps
+touch "${HOME}/.config/panel-reload"

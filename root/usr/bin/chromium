@@ -9,7 +9,7 @@ fi
 
 
 # Wayland check
-if pgrep labwc > /dev/null 2>&1; then
+if [ "${PIXELFLUX_WAYLAND,,}" == "true" ]; then
   WAYLAND="--ozone-platform=wayland"
 fi
 

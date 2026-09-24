@@ -26,7 +26,6 @@ RUN \
     chromium \
     git \
     qt6-base \
-    tint2 \
     thunar && \
   echo "**** install wps-office ****" && \
   cd /tmp && \
@@ -67,8 +66,6 @@ RUN \
     /usr/share/applications/foot-server.desktop \
     /usr/share/applications/thunar-bulk-rename.desktop \
     /usr/share/applications/thunar-settings.desktop \
-    /usr/share/applications/tint2conf.desktop \
-    /usr/share/applications/tint2.desktop \
     /usr/share/applications/uxterm.desktop \
     /usr/share/applications/xfce4-about.desktop \
     /usr/share/applications/xterm.desktop \
